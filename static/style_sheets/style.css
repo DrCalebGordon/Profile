@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header { width: 800px; background-color: #F6D6D6}
+
+header {
+    color: black;
+    background-color: #F6D6D6;
+    border: 5px dashed black;
+    padding: 20px;
+    margin: 5px;
+
+
+
+}
+a{
+    box-sizing: border-box;
+    background-color: inherit;
+
+}
+
+body{
+    box-sizing: border-box;
+    color: black;
+}
+.cartoon_heading{
+    font-family: Rubik Doodle Shadow, Arial; background-color: #F6D6D6;
+}
+*{
+    background-color: aquamarine;
+}
+
+p,li,h2,h3,h4,a{
+    font-family: Dosis, Arial
+}
+
+main{
+    max-width: 35rem;
+
+
+}
+
+.circular--portrait {
+    position: relative; width: 15rem; height: 15rem;
+    overflow: hidden; border-radius: 50%;
+    border: 5px solid black;
+}
+.circular--portrait img { width: 100%; height: auto; }
+
