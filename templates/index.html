@@ -1,68 +1,138 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-     <link rel="stylesheet" href="static/style_sheets/style.css">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Caleb Gordon </title>
+    <title>Dr Caleb Gordon</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@300&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dosis&family=Roboto:wght@300&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-<header class="need box">
 
-    <h1 class="cartoon_heading">Caleb Gordon, PhD</h1>
-    <h2 class="cartoon_heading"> <i class="cartoon_heading"> Director of Systems &amp; Technology | Full-Stack Programmer | Data Scientist </i></h2>
+<!-- NAVBAR -->
+<div id="heading">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
 
-    <div class="circular--portrait"> <img src="static/images/CalebImage.jpeg" /> </div>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+</div>
+
+<!-- Hero Image -->
+
+<div class="container-xxl p-4 m-6">
+  <div class="row">
+    <div class="col-md-6 d-flex align-items-center">
+      <div class="calebPhoto">
+        <img id="caleb" src="static/images/caleb/CalebImage.jpeg" alt="Caleb Image">
+      </div>
+    </div>
+    <div class="col-md-6 d-flex align-items-center">
+      <div class="center-content">
+        <h2 class="dynamic-font">Caleb Gordon, PhD </h2>
+        <p class="paragraph-heading">
+            Proven technology leader with experience in fullstack development, networking engineering, systems engineering, and technology operations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-    <br>
+<!-- New Section with Card and Collapse -->
+<div class="container-xxl p-4 additional-section">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <button class="btn btn-outline-primary custom-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+         LiveOak Fiber: Director of Systems and Software Engineering
+        </button>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            <ul>
+                <p>October 2022- Present</p>
+                <li>Oversaw network engineers, software engineers, NOC engineers, and vendors</li>
+                <li>Launched and configured the network routers on the border and edge</li>
+                <li>Implemented DHCP servers, SFTP servers, Syslog servers, TACACS</li>
+                <li>Hosted and configured the Calix SMX server system on Dell EMC server using Linux RHEL 8 operating system</li>
+                <li>Implemented network monitoring tools (Zabbix, IGlass, PagerDuty, etc.)</li>
+                <li> Implemented and mapped the billing and provisioning systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End New Section with Card and Collapse -->
 
-    <a href="public/about.html">About Me</a>
+<!-- New Section with Card and Collapse -->
+<div class="container-xxl p-4 additional-section">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <button class="btn btn-outline-primary custom-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+         BlueStream Fiber: Director of Network Operations and Service Assurance
+        </button>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            <ul>
+                <p>February 2020- October 2021</p>
+                <li>Oversaw network engineers, software engineers, NOC engineers, and vendors</li>
+                <li>Launched and configured the network routers on the border and edge</li>
+                <li>Implemented DHCP servers, SFTP servers, Syslog servers, TACACS</li>
+                <li>Hosted and configured the Calix SMX server system on Dell EMC server using Linux RHEL 8 operating system</li>
+                <li>Implemented network monitoring tools (Zabbix, IGlass, PagerDuty, etc.)</li>
+                <li> Implemented and mapped the billing and provisioning systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End New Section with Card and Collapse -->
 
-    <a href="https://www.linkedin.com/in/caleb-gordon-phd-877604124/"> LinkedIn Page</a>
 
-</header>
 
-<main>
-    <p> My work experience is varied in networking, systems engineering and operations, and much more.</p>
 
-    <h3>Skills</h3>
-
-    <ul>
-        <li>Programming: Python, C++, JavaScript </li>
-         <li> Web Development: HTML, CSS, DJango, Flask </li>
-        <li>Network Engineering</li>
-        <li>Data Analytics</li>
-        <li>Operations of Contact Centers</li>
-        <li>Manage Systems Engineering Teams</li>
-    </ul>
-
-    <h3>Experience</h3>
-    <h4>Sr. Director- Engineering  (October 2022- Present)</h4>
-    <ul>
-        <li>Oversaw network engineers, software engineers, NOC engineers, and vendors</li>
-        <li>Launched and configured the network routers on the border and edge</li>
-        <li>Implemented DHCP servers, SFTP servers, Syslog servers, TACACS</li>
-        <li>Hosted and configured the Calix SMX server system on Dell EMC server using Linux RHEL 8 operating system</li>
-        <li>Implemented network monitoring tools (Zabbix, IGlass, PagerDuty, etc.)</li>
-        <li> Implemented and mapped the billing and provisioning systems</li>
-    </ul>
-</main>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 
 <footer>
     <p>© 2023 Caleb Gordon</p>
   </footer>
+</html>
 
-
-
-
-</body></html>
+</html>
