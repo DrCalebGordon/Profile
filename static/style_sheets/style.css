@@ -1,52 +1,52 @@
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+
+
+#caleb{
+    border-radius: 50%;
+    max-width:100%;
+    height: auto;
 }
 
-header { width: 25rem; background-color: #F6D6D6}
-
-header {
-    color: black;
-    background-color: #F6D6D6;
-    border: 5px dashed black;
-    padding: 30px;
-    margin: 5px;
-
-
-
-}
-a{
-    box-sizing: border-box;
-    background-color: inherit;
-
+.vertical-center{
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    height: 100%;
 }
 
-body{
-    box-sizing: border-box;
-    color: black;
-}
-.cartoon_heading{
-    font-family: Rubik Doodle Shadow, Arial; background-color: #F6D6D6;
-}
-*{
-    background-color: aquamarine;
+
+    .dynamic-font {
+      font-size: 6vw; /* Adjust this value as needed */
+    }
+
+    .custom-btn{
+        border: none;
+        border-color: white;
+        text-align: left;
+        color: black;
+    }
+
+    .paragraph-heading {
+        font-size: 4vw; /* Adjust this value as needed */
+    }
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
 }
 
-p,li,h2,h3,h4,a{
-    font-family: Dosis, Arial
-}
+   .custom-btn:hover,
+    .custom-btn:active,
+    .custom-btn:focus {
+       background-color: black;
+       color: white;
+   }
 
-main{
-    max-width: 35rem;
-
-
-}
-
-.circular--portrait {
-    position: relative; width: 15rem; height: 15rem;
-    overflow: hidden; border-radius: 50%;
-    border: 5px solid black;
-}
-.circular--portrait img { width: 100%; height: auto; }
-
+   .custom-btn{
+       font-size:3vw;
+   }
+   .card-body{
+       font-size: 2vw;
+   }
