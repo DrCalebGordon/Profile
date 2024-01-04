@@ -1,4 +1,17 @@
 
+.resume{
+
+}
+.hero-section{
+
+}
+
+.footercustom{
+
+}
+.slideshow{
+
+}
 
 #caleb{
     border-radius: 50%;
@@ -15,7 +28,7 @@
 
 
     .dynamic-font {
-      font-size: 6vw; /* Adjust this value as needed */
+      font-size: 4vw; /* Adjust this value as needed */
     }
 
     .custom-btn{
@@ -26,7 +39,8 @@
     }
 
     .paragraph-heading {
-        font-size: 4vw; /* Adjust this value as needed */
+        font-size: 3vw; /* Adjust this value as needed */
+
     }
 
 .center-content {
@@ -45,8 +59,24 @@
    }
 
    .custom-btn{
-       font-size:3vw;
+       font-size:2vw;
+       gap: 5px;
+       background-color:white;
    }
    .card-body{
-       font-size: 2vw;
+       font-size: 1.5vw;
    }
+
+
+#carouselExample{
+
+   }
+
+   .headings{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 2vh 0 2vh 0;
+   ;
+   }
+
